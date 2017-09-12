@@ -1,0 +1,39 @@
+{
+	"name": "fr3nch13/vendor-objects",
+	"description": "jQuery objects",
+	"keywords": ["component", "vendors", "objects"],
+	"type": "component",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Brian French",
+			"role": "Developer"
+		},
+		{
+			"name": "Joshua Knust",
+			"role": "Manager"
+		} 
+	],
+	"require": {
+		"components/jquery": "*",
+		"components/jqueryui": "*",
+		"fr3nch13/vendor-ionicons": "*",
+		"fr3nch13/vendor-tooltipster": "*"
+	},
+	"extra": {
+		"component": {
+			"files": [
+				"jquery.objects.base.js",
+				"jquery.objects.message.js",
+				"jquery.objects.table.js",
+				"jquery.objects.list.js",
+				"jquery.objects.tabs.js",
+				"jquery.objects.stats.js",
+				"jquery.objects.dashboard.js",
+				"jquery.objects.dashboard-block.js",
+				"jquery.objects.form.js",
+				"jquery.objects.page-options.js"
+			]
+		}
+	}
+}
